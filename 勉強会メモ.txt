@@ -23,3 +23,7 @@ Stateless functionとは、props等のみで、stateがない場合。
 ▪️アドバイス
 onclick=test() 関数を定義してしまうとロード時に実行されてしまう。
 onclick=testが正しい。
+
+▪️HTTP通信について
+Reactはモジュールを提供していないので、サードパーティを使用するか、通常はAjaxでよい。
+Reduxの考えで実装するなら、redux sagaがおすすめ。

@@ -1,0 +1,25 @@
+▪️開発環境
+ターミナル・エディタ
+Homebrew
+Mac
+
+setStateの中はJsonの記載
+render内でsetStateは使わない（無限ループに陥る）
+
+▪️renderが呼ばれるタイミング
+①親から値が渡されたときと②stateが変更されたとき、のみ！！
+
+▪️️️️shouldComponentUpdate
+stateに応じてrender有無がある場合は、ここに記述。
+
+▪️bind(this)を書かないとthisがバインドされない
+関数内でthis.stateを参照する場合は、bind(this)する必要が有る。
+・バインドするタイミングは主に2パターン
+1.constructor内でバインド
+2.onClck内でバインド
+
+Stateless functionとは、props等のみで、stateがない場合。
+
+▪️アドバイス
+onclick=test() 関数を定義してしまうとロード時に実行されてしまう。
+onclick=testが正しい。

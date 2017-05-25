@@ -1,3 +1,8 @@
+▪️勉強会資料
+https://github.com/besutome/slides/tree/master/20170525-ReactNative-handson
+▪️Facebook create-react-app
+https://github.com/facebookincubator/create-react-app#getting-started
+
 ▪️開発環境
 ターミナル・エディタ
 Homebrew
@@ -11,6 +16,11 @@ render内でsetStateは使わない（無限ループに陥る）
 
 ▪️️️️shouldComponentUpdate
 stateに応じてrender有無がある場合は、ここに記述。
+React Componentのライフサイクル
+http://qiita.com/kawachi/items/092bfc281f88e3a6e456
+PropTypesドキュメント
+https://facebook.github.io/react/docs/typechecking-with-proptypes.html
+
 
 ▪️bind(this)を書かないとthisがバインドされない
 関数内でthis.stateを参照する場合は、bind(this)する必要が有る。
